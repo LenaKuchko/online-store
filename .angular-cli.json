@@ -45,6 +45,10 @@
       "project": "e2e/tsconfig.e2e.json"
     }
   ],
+  "styles": [
+        "styles.css",
+        "../bower_components/bootstrap/dist/css/bootstrap.css"
+      ],
   "test": {
     "karma": {
       "config": "./karma.conf.js"
